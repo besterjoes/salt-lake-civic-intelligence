@@ -26,7 +26,7 @@ Findings are based on **government documents**, **media reports**, **campaign fi
 
 2023 data is used as a proxy due to lack of earlier full ACFRs. Rankings appear consistent across partial records from 2020–2022.
 
-![Top 10 Contractors](../images/top10_contractors_by_value.png)
+![top10_contractors_by_value](https://github.com/user-attachments/assets/6a93ae0e-3e92-4b6c-bc93-f0283d5f451a)
 
 ### Private Construction Involvement
 
@@ -66,7 +66,7 @@ Findings are based on **government documents**, **media reports**, **campaign fi
 * \$41,500 donated to **Mayor Jenny Wilson’s 2018 Senate run**.
 * The project: **933-acre development** with **6,330 homes** and **1.8M sq ft** of commercial space.
 
-![Olympia Hills Donation Breakdown](../images/donation_breakdown.png)
+![donation_breakdown](https://github.com/user-attachments/assets/b78af2e4-ffbc-4d97-b729-2743de8c344b)
 
 #### Visual Timeline (Suggested Future Addition)
 
@@ -101,7 +101,7 @@ Findings are based on **government documents**, **media reports**, **campaign fi
 * Salt Lake City receives **most large-scale project allocations** (e.g., 600/700 North corridor).
 * Insufficient data to map project funding accurately **by city**.
 
-![Top Expenditures Chart](../images/contract_expenditures.png)
+![contract_expenditures](https://github.com/user-attachments/assets/09cd20e9-04eb-4900-ad14-7288caa739de)
 
 
 ---
