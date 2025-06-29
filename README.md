@@ -162,4 +162,4 @@ ENR Intermountain Top Contractors:
 
 Attribution
 
-Compiled and authored by [Your Name], 2025. This document is part of an OSINT portfolio project intended to demonstrate public accountability analysis and applied research methods.
+Compiled and authored by Ben Jones, 2025. This document is part of an OSINT portfolio project intended to demonstrate public accountability analysis and applied research methods.
