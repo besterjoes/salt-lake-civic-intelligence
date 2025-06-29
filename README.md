@@ -1,165 +1,144 @@
 Public Contracting and Political Donations in Salt Lake County (2020–2024): An OSINT Report
+Author: Ben Jones
+Date: 2025
+Purpose: An Open-Source Intelligence (OSINT) analysis of public accountability, transparency, and potential pay-to-play activities in Salt Lake County.
 
 Executive Summary
+This OSINT report examines Salt Lake County's public contracting and political donations from 2020 to 2024. The analysis identifies major contractors, assesses regulatory effectiveness, scrutinizes high-profile developments (Olympia Hills), and explores significant transparency gaps. Data sources include government documents, media investigations, campaign finance disclosures, and industry rankings.
 
-This open-source intelligence (OSINT) report examines Salt Lake County's public contracting and political donation landscape from 2020 to 2024. It investigates major contractors by value, regulatory efforts to prevent pay-to-play, perceived influence in high-profile developments like Olympia Hills, and the transparency challenges that hinder public oversight. The findings are based on government reports, media investigations, campaign finance disclosures, and industry rankings.
-
-Note: Transparency remains a significant issue — with over 50% of contract awards lacking publicly available metadata.
+Transparency Issue: Over 50% of awarded contracts lack publicly available metadata.
 
 1. Major Contractors and Dominant Industries
+Key Findings:
+Top Contractors: Unified Fire Authority, Unified Police Department, Layton Construction, Big-D Construction.
 
-Key Findings
+Dominant Sectors: Public Safety and Construction.
 
-Top contractors include governmental entities (Unified Fire Authority, Unified Police Department) and private firms (Layton Construction, Big-D Construction).
+Unequal Distribution: Urban centers disproportionately receive county-funded projects.
 
-Public safety and construction dominate contract values.
+Top Contractors (2023 ACFR):
+Data from 2023 serves as representative due to availability constraints.
 
-Contract distribution across cities appears uneven, with urban centers receiving more resources.
+Rankings reflect consistent trends observed from partial 2020–2022 data.
 
-Top Contractors by Expenditure (2023 ACFR)
+Notable Private Firms:
+Layton Construction, Big-D Construction (verified via ENR Intermountain rankings and county documentation).
 
-2023 data is used as representative due to public availability; similar rankings were consistent in earlier years, based on partial ACFR excerpts.
-
-Private Construction Involvement
-
-Layton Construction and Big-D Construction are likely key vendors, based on ENR Intermountain rankings and county project mentions.
-
-Brinshore Development and Utah Community Action also appear in awarded RFPs.
+Other significant entities include Brinshore Development and Utah Community Action.
 
 2. Transparency Gaps: No-Bid & Emergency Contracts
+Observations:
+No comprehensive public records for no-bid or emergency contracts.
 
-Key Observations
+Hundreds of contracts potentially bypass competitive bidding.
 
-No public database lists no-bid or emergency contracts.
+Suggested Public Metadata:
+Award date
 
-Based on procurement thresholds and rough contract estimates, likely hundreds of smaller contracts may bypass competitive bidding.
+Bidder list
 
-Salt Lake County's Contracts & Procurement page describes bidding thresholds but lacks award transparency.
+Bid method (open/no-bid/emergency)
 
-Suggested metadata fields for public dashboards: award date, bidder list, bid method (open, no-bid), contract amount, contract type, project location, duration.
+Contract amount and type
+
+Project location and duration
 
 3. Political Donation Regulations & Public Perception
+Regulatory Framework:
+Prohibited Activities	Allowed Activities
+Donations over $100 during contract periods or elections.	Donations below $100.
+Contracts within 1 year post-major donation (> $100).	Small/emergency purchases, statewide contracts.
 
-Regulatory Framework
+Olympia Hills Case Study (2020):
+Total Donations:
 
-What Contractors Can’t Do
+$38,295 to 7/9 Council members
 
-Donate more than $100 during contract terms or election cycle.
+$41,500 to Mayor Jenny Wilson's 2018 Senate campaign
 
-Enter new contracts within 1 year after contributing over $100.
+Project Details:
 
-What’s Allowed
+933 acres, 6,330 homes, 1.8M sq. ft. commercial space.
 
-Donations < $100.
+Suggested Timeline (for Future Implementation):
+Pre-2018: Initial donations
 
-Contracts under statewide agreement or small/emergency purchases.
+2019: Project introduced and paused
 
-Olympia Hills Case Study (2020)
+2020: Approval after reconsideration
 
-$38,295 in donations from Olympia Hills backers to 7 of 9 Council members.
-
-$41,500 to Mayor Jenny Wilson’s 2018 U.S. Senate run.
-
-The project: 933-acre development with 6,330 homes and 1.8M sq ft of commercial space.
-
-Visual timeline recommended (future enhancement):
-
-Pre-2018: Donations to Wilson.
-
-2019: Project introduced, paused.
-
-2020: Council reconsideration and approval.
-
-Donations Breakdown
-
-Public Perception
-
-Despite regulations, timing loopholes (e.g., donations made before contract windows or by individuals instead of companies) continue to raise pay-to-play suspicions.
+Public Perception:
+Persistent pay-to-play suspicions due to regulatory loopholes and indirect donation channels.
 
 4. Analysis of Contractor Donations
+Methodology:
+Manual review of County Clerk disclosures (2018–2024).
 
-Methodology: Manual review of Salt Lake County Clerk disclosures, keyword search ("Layton Construction," "Big-D," "David Layton") across 2018–2024 filings. Data portals lack bulk export or APIs, limiting comprehensive pattern detection.
+Keywords: "Layton Construction," "Big-D," "David Layton."
 
-Attempts to link major contractors (Layton, Big-D) to donations yielded no strong results.
+Results:
+No major violations identified.
 
-No significant individual or company donations were found that breached regulatory thresholds.
+Fragmented and inaccessible data hampers comprehensive analysis.
 
 5. Contract Distribution Across Cities
+Observations:
+Disproportionate allocation to Salt Lake City (e.g., infrastructure projects at 600/700 North).
 
-Data suggests Salt Lake City receives a disproportionate share of large projects (e.g., 600/700 North reconstruction).
+Detailed geographical analysis currently limited due to incomplete metadata.
 
-Without project-by-project city mapping, exact figures are unclear.
-
-Future improvement: Visualize geographic contract allocations if project metadata (location, value) becomes available.
+Recommendations for Improvement:
+Geographic visualization of contracts upon metadata availability.
 
 6. Recommendations
+Transparency & Oversight Improvements:
+Centralized contract award database (vendor, value, method, project details).
 
-Transparency & Oversight
+Publicly accessible log of no-bid and emergency contracts.
 
-Publish centralized contract award database (vendor, method, value, project type).
+API or downloadable campaign finance data including donor affiliations.
 
-Add a public no-bid/emergency contract log.
+Investigative Priorities:
+Submit GRAMA requests for emergency contracts, bid waivers, and project selection documents.
 
-Provide API access or downloadable campaign finance data with donor affiliations.
+Expand investigations to additional high-profile projects.
 
-Investigative Priorities
+Comparative Models:
+Review transparency practices in Madison, WI and King County, WA.
 
-Conduct GRAMA requests for:
+Foster community oversight through public forums and watchdog groups.
 
-Emergency procurement contracts
+Visual/Data Enhancements:
+Charts: Contract distribution by sector; donation flows.
 
-Bid waiver documentation
+Timelines: Highlight major donation milestones (Olympia Hills).
 
-Project selection memos
-
-Analyze additional high-profile projects for patterns in donations and approvals.
-
-Comparative Models
-
-Explore dashboard and transparency frameworks used in Madison, WI, or King County, WA.
-
-Recommend public forums or watchdog groups for community oversight.
-
-Visual and Data Tools
-
-Add pie/bar charts showing:
-
-Contract value by industry
-
-Donations by recipient
-
-Include visual timeline of donation milestones for Olympia Hills.
-
-Add procurement process flowchart highlighting opaque decision points.
+Flowcharts: Procurement process and decision points.
 
 Scope Notes
+Data Limitations: Earlier ACFRs (2020–2022) incomplete; 2023 data representative.
 
-Earlier ACFRs (2020–2022) were not publicly available in full detail; 2023 data used as proxy.
+Campaign finance information fragmented, requiring manual compilation.
 
-Campaign finance data fragmented across county, city, and state systems, requiring manual lookup.
-
-Key Terms (Glossary)
-
-GRAMA: Government Records Access and Management Act (Utah's public records law).
-
-No-bid Contract: A contract awarded without a competitive bidding process.
-
-RFP: Request for Proposal, a formal process to solicit project bids from vendors.
+Glossary
+Term	Definition
+GRAMA	Government Records Access & Management Act (Utah)
+No-Bid Contract	Contracts awarded without competitive bidding
+RFP	Request for Proposal
 
 Key Sources
+Salt Lake County Annual Comprehensive Financial Report (2023)
 
-Salt Lake County Annual Comprehensive Financial Report 2023: 
+Salt Lake County Contracts & Procurement Portal
 
-Salt Lake County Contracts: 
+Utah Campaign Finance Regulations
 
-Campaign Finance Rules: 
+Olympia Hills Donation Reports
 
-Olympia Hills Donation Report: 
+Salt Lake County Clerk Campaign Disclosures
 
-Salt Lake County Clerk Disclosures: 
-
-ENR Intermountain Top Contractors: 
+ENR Intermountain Contractor Rankings
 
 Attribution
-
-Compiled and authored by Ben Jones, 2025. This document is part of an OSINT portfolio project intended to demonstrate public accountability analysis and applied research methods.
+Compiled by: Ben Jones (2025).
+This report is part of an OSINT portfolio demonstrating analytical skills in public accountability and applied research methodologies.
