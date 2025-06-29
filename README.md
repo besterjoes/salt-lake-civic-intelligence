@@ -1,144 +1,179 @@
-Public Contracting and Political Donations in Salt Lake County (2020–2024): An OSINT Report
-Author: Ben Jones
-Date: 2025
-Purpose: An Open-Source Intelligence (OSINT) analysis of public accountability, transparency, and potential pay-to-play activities in Salt Lake County.
+# Public Contracting and Political Donations in Salt Lake County (2020–2024): An OSINT Report
 
-Executive Summary
-This OSINT report examines Salt Lake County's public contracting and political donations from 2020 to 2024. The analysis identifies major contractors, assesses regulatory effectiveness, scrutinizes high-profile developments (Olympia Hills), and explores significant transparency gaps. Data sources include government documents, media investigations, campaign finance disclosures, and industry rankings.
+### *By Ben Jones (2025)*
 
-Transparency Issue: Over 50% of awarded contracts lack publicly available metadata.
+*An open-source intelligence (OSINT) investigation into public accountability, transparency, and pay-to-play risks.*
 
-1. Major Contractors and Dominant Industries
-Key Findings:
-Top Contractors: Unified Fire Authority, Unified Police Department, Layton Construction, Big-D Construction.
+---
 
-Dominant Sectors: Public Safety and Construction.
+## Executive Summary
 
-Unequal Distribution: Urban centers disproportionately receive county-funded projects.
+This open-source intelligence (OSINT) report examines Salt Lake County’s public contracting and political donation landscape from **2020 to 2024**. It identifies **dominant contractors**, **regulatory shortcomings**, and **transparency gaps** in major project approvals, with a special focus on **Olympia Hills**.
 
-Top Contractors (2023 ACFR):
-Data from 2023 serves as representative due to availability constraints.
+Findings are based on **government documents**, **media reports**, **campaign finance disclosures**, and **industry rankings**. Over **50% of contract awards** lack publicly accessible metadata, complicating oversight.
 
-Rankings reflect consistent trends observed from partial 2020–2022 data.
+---
 
-Notable Private Firms:
-Layton Construction, Big-D Construction (verified via ENR Intermountain rankings and county documentation).
+## 1. Major Contractors and Dominant Industries
 
-Other significant entities include Brinshore Development and Utah Community Action.
+### 🔍 Key Findings
 
-2. Transparency Gaps: No-Bid & Emergency Contracts
-Observations:
-No comprehensive public records for no-bid or emergency contracts.
+* Top vendors include **Unified Fire Authority**, **Unified Police Department**, **Layton Construction**, and **Big-D Construction**.
+* Spending is concentrated in **public safety** and **construction**.
+* **Urban centers**, especially Salt Lake City, receive a disproportionate share of resources.
 
-Hundreds of contracts potentially bypass competitive bidding.
+### 📊 Top Contractors by Expenditure (2023 ACFR)
 
-Suggested Public Metadata:
-Award date
+2023 data is used as a proxy due to lack of earlier full ACFRs. Rankings appear consistent across partial records from 2020–2022.
 
-Bidder list
+### 🏧 Private Construction Involvement
 
-Bid method (open/no-bid/emergency)
+* **Layton Construction** and **Big-D Construction** consistently appear in project mentions and **ENR Intermountain rankings**.
+* **Brinshore Development** and **Utah Community Action** also receive notable RFP awards.
 
-Contract amount and type
+---
 
-Project location and duration
+## 2. Transparency Gaps: No-Bid & Emergency Contracts
 
-3. Political Donation Regulations & Public Perception
-Regulatory Framework:
-Prohibited Activities	Allowed Activities
-Donations over $100 during contract periods or elections.	Donations below $100.
-Contracts within 1 year post-major donation (> $100).	Small/emergency purchases, statewide contracts.
+### ⚠️ Key Observations
 
-Olympia Hills Case Study (2020):
-Total Donations:
+* No **central public log** of no-bid or emergency contracts exists.
+* Likely **hundreds of small contracts** bypass competitive bidding due to thresholds.
+* The county’s procurement site lacks **award-level transparency**.
 
-$38,295 to 7/9 Council members
+### 📌 Suggested Metadata for Public Dashboards
 
-$41,500 to Mayor Jenny Wilson's 2018 Senate campaign
+* Award date
+* Bidder list
+* Bid method (open, no-bid, emergency)
+* Contract amount and type
+* Project location and duration
 
-Project Details:
+---
 
-933 acres, 6,330 homes, 1.8M sq. ft. commercial space.
+## 3. Political Donation Regulations & Public Perception
 
-Suggested Timeline (for Future Implementation):
-Pre-2018: Initial donations
+### ⚖️ Legal Framework
 
-2019: Project introduced and paused
+* ❌ *Not allowed*: Donations **>\$100** during contract term or within 1 year before/after.
+* ✅ *Allowed*: Donations **< \$100**, and contracts under state/micro thresholds or emergency status.
 
-2020: Approval after reconsideration
+### 🏩 Case Study: **Olympia Hills (2020)**
 
-Public Perception:
-Persistent pay-to-play suspicions due to regulatory loopholes and indirect donation channels.
+* \$38,295 donated by developers to **7 of 9 Council members**.
+* \$41,500 donated to **Mayor Jenny Wilson’s 2018 Senate run**.
+* The project: **933-acre development** with **6,330 homes** and **1.8M sq ft** of commercial space.
 
-4. Analysis of Contractor Donations
-Methodology:
-Manual review of County Clerk disclosures (2018–2024).
+#### 🔁 Visual Timeline (Suggested Future Addition)
 
-Keywords: "Layton Construction," "Big-D," "David Layton."
+* **Pre-2018**: Donations to Wilson
+* **2019**: Project paused after opposition
+* **2020**: Project reintroduced and approved
 
-Results:
-No major violations identified.
+### 🧠 Public Perception
 
-Fragmented and inaccessible data hampers comprehensive analysis.
+* Regulatory loopholes (timing, donor proxies) lead to **ongoing pay-to-play suspicions** despite compliance.
 
-5. Contract Distribution Across Cities
-Observations:
-Disproportionate allocation to Salt Lake City (e.g., infrastructure projects at 600/700 North).
+---
 
-Detailed geographical analysis currently limited due to incomplete metadata.
+## 4. Analysis of Contractor Donations
 
-Recommendations for Improvement:
-Geographic visualization of contracts upon metadata availability.
+### 🛠️ Methodology
 
-6. Recommendations
-Transparency & Oversight Improvements:
-Centralized contract award database (vendor, value, method, project details).
+* Manual keyword review of **Salt Lake County Clerk campaign finance disclosures (2018–2024)**.
+* Search terms: “Layton Construction,” “Big-D,” “David Layton.”
 
-Publicly accessible log of no-bid and emergency contracts.
+### ❌ Results
 
-API or downloadable campaign finance data including donor affiliations.
+* No major violations of donation limits found.
+* **Data fragmentation** and lack of API access limit bulk pattern analysis.
 
-Investigative Priorities:
-Submit GRAMA requests for emergency contracts, bid waivers, and project selection documents.
+---
 
-Expand investigations to additional high-profile projects.
+## 5. Contract Distribution Across Cities
 
-Comparative Models:
-Review transparency practices in Madison, WI and King County, WA.
+### 🧽 Observations
 
-Foster community oversight through public forums and watchdog groups.
+* Salt Lake City receives **most large-scale project allocations** (e.g., 600/700 North corridor).
+* Insufficient data to map project funding accurately **by city**.
 
-Visual/Data Enhancements:
-Charts: Contract distribution by sector; donation flows.
+### 📌 Future Enhancements
 
-Timelines: Highlight major donation milestones (Olympia Hills).
+* Use **geographic data visualization** once project metadata becomes available (location, value, duration).
 
-Flowcharts: Procurement process and decision points.
+---
 
-Scope Notes
-Data Limitations: Earlier ACFRs (2020–2022) incomplete; 2023 data representative.
+## 6. Recommendations
 
-Campaign finance information fragmented, requiring manual compilation.
+### ✅ Transparency & Oversight
 
-Glossary
-Term	Definition
-GRAMA	Government Records Access & Management Act (Utah)
-No-Bid Contract	Contracts awarded without competitive bidding
-RFP	Request for Proposal
+* Publish **centralized contract award database** (vendor, value, method, project type).
+* Create a **no-bid/emergency log** for public review.
+* Offer **API access or downloadable** campaign finance datasets with **donor affiliations**.
 
-Key Sources
-Salt Lake County Annual Comprehensive Financial Report (2023)
+### 🕵️‍ Investigative Priorities
 
-Salt Lake County Contracts & Procurement Portal
+* Submit **GRAMA requests** for:
 
-Utah Campaign Finance Regulations
+  * Emergency procurement contracts
+  * Bid waiver justifications
+  * Memos behind major project approvals
 
-Olympia Hills Donation Reports
+* Expand analysis to projects like **Inland Port** and **Daybreak**.
 
-Salt Lake County Clerk Campaign Disclosures
+### 🧹 Comparative Models
 
-ENR Intermountain Contractor Rankings
+* Examine dashboards and transparency standards in:
 
-Attribution
-Compiled by: Ben Jones (2025).
-This report is part of an OSINT portfolio demonstrating analytical skills in public accountability and applied research methodologies.
+  * **Madison, WI**
+  * **King County, WA**
+
+* Encourage **public forums or watchdog groups** to increase local oversight.
+
+### 📈 Visual and Data Tools (For Expansion)
+
+* Bar/Pie Charts:
+
+  * Contract value by industry
+  * Donations by recipient
+* Visual Timeline:
+
+  * Donation milestones for Olympia Hills
+* Procurement Flowchart:
+
+  * Highlight opaque decision points
+
+---
+
+## Scope Notes
+
+* **2023 ACFR** used as primary reference due to **unavailable earlier reports**.
+* Campaign finance data spans **county, city, and state platforms**, requiring manual collection and cross-referencing.
+
+---
+
+## Glossary
+
+| Term                | Definition                                         |
+| ------------------- | -------------------------------------------------- |
+| **GRAMA**           | Utah’s public records access law                   |
+| **No-Bid Contract** | Awarded without competitive bidding                |
+| **RFP**             | Request for Proposal – formal project solicitation |
+
+---
+
+## Key Sources
+
+* *Salt Lake County ACFR (2023)*
+* *Salt Lake County Contracts & Procurement Portal*
+* *Utah Campaign Finance Regulations*
+* *Olympia Hills Campaign Finance Reporting*
+* *Salt Lake County Clerk Disclosures (2018–2024)*
+* *ENR Intermountain Top Contractors List*
+
+---
+
+## Attribution
+
+*Authored by **Ben Jones** (2025) as part of an OSINT portfolio project. This document aims to demonstrate real-world transparency analysis, public records navigation, and applied research for civic accountability.*
+
