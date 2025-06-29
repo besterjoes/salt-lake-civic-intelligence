@@ -1,7 +1,7 @@
 # Salt Lake County Procurement & Political Donations (2020–2024)
 
-## 📌 Overview
-This OSINT (Open Source Intelligence) project investigates the transparency of public contracting and political donations in Salt Lake County, Utah, from 2020 to 2024. By analyzing government documents, campaign finance records, and media reports, it uncovers patterns in county spending, the influence of donations on contract approvals, and gaps in transparency. Understanding these dynamics is critical for ensuring accountability in local governance and empowering residents to engage with public decision-making.
+## Overview
+This Open Source Intelligence project investigates the transparency of public contracting and political donations in Salt Lake County, Utah, from 2020 to 2024. By analyzing government documents, campaign finance records, and media reports, it uncovers patterns in county spending, the influence of donations on contract approvals, and gaps in transparency. Understanding these dynamics is critical for ensuring accountability in local governance and empowering residents to engage with public decision-making.
 
 ## Objectives
 - Identify the top 10 contractors by total contract value and analyze the distribution of contracts across industries to reveal spending dominance.
@@ -18,10 +18,12 @@ This OSINT (Open Source Intelligence) project investigates the transparency of p
 *Note*: Data extraction from PDFs was challenging due to inconsistent formatting, and campaign finance databases lacked robust search tools, slowing analysis.
 
 ## Visualizations
-- ![Contract Expenditures](03_Analysis/contract_expenditures.png)  
-  *Bar chart showing the top 10 contractors by total contract value, emphasizing dominance in public safety and construction.*
-- ![Donations Breakdown](03_Analysis/donation_breakdown.png)  
-  *Pie chart breaking down campaign donations by industry, highlighting contributions from firms linked to major contracts.*
+- ![contract_expenditures](https://github.com/user-attachments/assets/305b6e74-41ef-434a-852e-99ccb86d45f2)
+  
+- ![donation_breakdown](https://github.com/user-attachments/assets/04282374-94bc-4e70-9f5e-54e7b3c5e157)
+
+- ![top10_contractors_by_value](https://github.com/user-attachments/assets/ae22da0f-b4ab-48d7-bc4c-f1ae873dd5d4)
+
 
 Additional visuals, including interactive dashboards, are in the `Presentation/` folder.
 
@@ -60,6 +62,6 @@ References/         # External links, citations, and archival snapshots
 - [Salt Lake County Contracts Portal](https://www.saltlakecounty.gov/contracts/)  
   *Official portal with limited historical and search features.*
 
-## 📬 Contact
+## Contact
 Created by [Ben Jones] (2025) as part of an open-source civic intelligence initiative.  
 Reach me at [bennywjones23@gmail.com] or visit my [GitHub profile](https://github.com/besterjoes) for questions or collaboration.
