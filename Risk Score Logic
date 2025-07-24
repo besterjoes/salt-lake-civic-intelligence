@@ -34,15 +34,3 @@ Each contract is evaluated based on two types of criteria: **Core Risk Factors**
 | Audit Findings            | Vendor or agency flagged in audit reports    | +1    |
 | Political Ties            | Vendor made recent political donations       | +2    |
 | Vendor Dominance          | Vendor received more than 50% of agency spend| +2    |
-
----
-
-## Example Usage in Notebook
-
-After cleaning and preparing your dataset:
-
-```python
-from risk_scoring import apply_risk_scores
-
-df_scored = apply_risk_scores(df_cleaned)
-high_risk = df_scored[df_scored["risk_score"] >= 6]  # threshold can be adjusted
