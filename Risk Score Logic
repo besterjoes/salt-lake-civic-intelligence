@@ -1,24 +1,48 @@
-We’ve implemented a risk score system to automatically identify high-risk contracts in the procurement dataset. 
-The scoring is based on weighted factors drawn from audit findings, transparency guidelines, and procurement oversight criteria.
+# High-Risk Contract Scoring System
 
-Scoring Logic Summary
-Each contract is evaluated based on two types of indicators:
+This document outlines the logic used to assign a `risk_score` to each contract in the procurement dataset. The scoring framework is based on red flags commonly identified in government audits, transparency watchdogs, and public procurement oversight.
 
-Core Risk Factors
-Factor	Criteria	Score
-Sole-Source / No Bids	Bids == 0	+3
-Large Contract Without Justification	Contract Value > $100K and no justification memo	+2
-Repeated Vendor Awards	Same vendor, same agency, Award Count >= 3 in 2 years	+2
-Exemption / Emergency / Piggyback	Procurement Type includes exemption, emergency, piggyback	+2
-Vague / Generic Scope	Description includes vague terms (e.g., "services", "misc.")	+2
-Amendment After Award	Amendment exceeds 25% of original contract value	+2
-Just Below Approval Threshold	Total just under oversight cap (e.g., $49,999)	+1
+The goal is to prioritize contracts for further review by assigning points to characteristics that suggest elevated risk of fraud, favoritism, waste, or lack of oversight.
 
-Supporting Indicators
-Factor	Criteria	Score
-Missing Bid Documentation	No RFP or public bidding documents available	+1
-Audit Findings	Vendor or agency flagged in audit reports	+1
-Political Ties	Vendor made recent political donations	+2
-Vendor Dominance	Vendor received more than 50% of agency spend	+2
+---
 
-Add high-risk contract scoring documentation to README
+## Scoring Logic Summary
+
+Each contract is evaluated based on two types of criteria: **Core Risk Factors** and **Supporting Indicators**. These are weighted to reflect the severity of potential risk.
+
+---
+
+### Core Risk Factors
+
+| Factor                                | Criteria                                                            | Score |
+|---------------------------------------|---------------------------------------------------------------------|-------|
+| Sole-Source / No Bids                 | `Bids == 0`                                                         | +3    |
+| Large Contract Without Justification  | `Contract Value > $100,000` and no justification memo              | +2    |
+| Repeated Vendor Awards                | Same vendor, same agency, `Award Count >= 3` in 2 years             | +2    |
+| Exemption / Emergency / Piggyback     | `Procurement Type` includes exemption, emergency, or piggyback     | +2    |
+| Vague or Generic Scope                | Description includes vague terms (e.g., "services", "misc.")        | +2    |
+| Amendment After Award                 | Amendment exceeds 25% of original contract value                    | +2    |
+| Just Below Approval Threshold         | Contract value just under oversight cap (e.g., $49,999)             | +1    |
+
+---
+
+### Supporting Indicators
+
+| Factor                    | Criteria                                     | Score |
+|---------------------------|----------------------------------------------|-------|
+| Missing Bid Documentation | No RFP or public bidding records available   | +1    |
+| Audit Findings            | Vendor or agency flagged in audit reports    | +1    |
+| Political Ties            | Vendor made recent political donations       | +2    |
+| Vendor Dominance          | Vendor received more than 50% of agency spend| +2    |
+
+---
+
+## Example Usage in Notebook
+
+After cleaning and preparing your dataset:
+
+```python
+from risk_scoring import apply_risk_scores
+
+df_scored = apply_risk_scores(df_cleaned)
+high_risk = df_scored[df_scored["risk_score"] >= 6]  # threshold can be adjusted
